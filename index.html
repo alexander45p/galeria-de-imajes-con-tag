@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Galería Responsiva</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>Tags</h3> 
+          <!---------  tag con las etiquetas de las imajenes  ------------->
+        <div class="tags">
+            <span class="tag" onclick="filterGallery('all')">Todos</span>
+            <span class="tag" onclick="filterGallery('Naturaleza')">Naturaleza</span>
+            <span class="tag" onclick="filterGallery('Animales')">Animales</span>
+            <span class="tag" onclick="filterGallery('Ciudades')">Ciudades</span>     
+            <span class="tag" onclick="filterGallery('dc')">dc</span>    
+            <span class="tag" onclick="filterGallery('warhammer')">warhammer</span>    
+            <span class="tag" onclick="filterGallery('movies')">movies</span>           
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Busca por temática">
+        </div>
+        
+        <div class="gallery">
+            <div  class="gallery-item Ciudades"><img src="img/citi.jpg"  alt="Ciudades"></div>
+            <div class="gallery-item Ciudades"><img src="img/citi2.jpg" alt="Ciudades"></div>
+            <div class="gallery-item Naturaleza"><img src="img/natura.jpg" alt="Naturaleza"></div>
+            <div class="gallery-item Naturaleza"><img src="img/natura 2.jpg" alt="Naturaleza"></div>
+            <div class="gallery-item Naturaleza"><img src="img/natura 3.jpg" alt="Naturaleza"></div>
+            <div class="gallery-item comic"><img src="img/comic.jpg" alt="comic"></div>
+            <div class="gallery-item Animales"><img src="img/animal.jpg" alt="Animales"></div>
+            <div class="gallery-item Animales"><img src="img/animal 2.jpg" alt="Animales"></div>
+            <div class="gallery-item movies"><img src="img/movie.jpg" alt="movies "></div>
+            <div class="gallery-item movies"><img src="img/movies 2.jpg" alt="movies "></div>
+            <div class="gallery-item movies"><img src="img/movie 3.jpg" alt="movies "></div>
+            <div class="gallery-item warhammer"><img src="img/warhammer.png" alt="warhammer"></div>
+            <div class="gallery-item warhammer"><img src="img/warhammer 2.jpg" alt="warhammer"></div>
+            <div class="gallery-item warhammer"><img src="img/warhammer 3.jpg" alt="warhammer"></div>
+            <div class="gallery-item dc"><img src="img/dc.jpg" alt="dc"></div>
+            <div class="gallery-item dc"><img src="img/dc2.png" alt="dc"></div>
+
+
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
